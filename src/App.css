@@ -1,0 +1,41 @@
+.App {
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0.299);
+    height: 90vh;
+    
+  }
+  
+  Button{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;  
+    background-color: green;       
+    margin: 5px 5px;    
+  }
+  
+  
+  Button:hover{
+   color: black;
+   background-color: goldenrod;
+  }
+  
+  
+  
+  img{
+    width: 250px;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      img{
+        width: 200px;
+        margin-top: 10px;
+      
+    }
+  }
+  
